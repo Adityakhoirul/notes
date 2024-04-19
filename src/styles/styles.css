@@ -1,0 +1,36 @@
+.notes-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.note-card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.note-card h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+.card,
+.data h2 {
+  text-align: center;
+}
+
+.note-card p {
+  margin-bottom: 0;
+  font-size: 1em;
+}
+
+.note-card small {
+  color: #888;
+  font-size: 0.8em;
+}
+
+/* header */
+custom-header {
+  display: block;
+}
